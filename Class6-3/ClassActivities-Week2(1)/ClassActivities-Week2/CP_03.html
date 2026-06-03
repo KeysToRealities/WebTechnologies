@@ -1,0 +1,73 @@
+<!-- Class Performance 03: External CSS - Complete Styled Profile Page
+     Topic   : Linking an external stylesheet; combining all CSS concepts
+     Task    : This HTML file is linked to cp_style.css.
+               1. Open cp_style.css and read every rule before running this file.
+               2. Predict what the page will look like.
+               3. Open in a browser and compare to your prediction.
+               4. In cp_style.css, change the body font-family to "Georgia,serif"
+                  and refresh the browser - notice how ONE change affects the whole page.
+               5. Add a new rule in cp_style.css for the <footer> element:
+                  background-color, color, text-align, padding.
+-->
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Student Profile - ITEC 2130</title>
+    <link rel="stylesheet" href="cp_style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Student Profile</h1>
+      <p class="subtitle">ITEC 2130 &mdash; Web Technologies</p>
+    </header>
+
+    <main>
+      <section>
+        <h2>About Me</h2>
+        <p>
+          My name is <strong>Alex Rivera</strong> and I am studying Information
+          Technology at Georgia Gwinnett College. I am passionate about web
+          development and design.
+        </p>
+      </section>
+
+      <section>
+        <h2>My Skills</h2>
+        <ul>
+          <li>HTML &amp; CSS</li>
+          <li>Microsoft Office</li>
+          <li>Problem Solving</li>
+          <li>Teamwork</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>My Goals</h2>
+        <ol>
+          <li>Master HTML and CSS</li>
+          <li>Build a personal portfolio website</li>
+          <li>Complete a web development internship</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>Useful Links</h2>
+        <p>
+          <a href="https://www.ggc.edu" target="_blank"
+            >Georgia Gwinnett College</a
+          >
+        </p>
+        <p>
+          <a href="https://www.w3schools.com" target="_blank"
+            >W3Schools - CSS Reference</a
+          >
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>ITEC 2130 &mdash; Georgia Gwinnett College &mdash; Aiasha Siddika</p>
+    </footer>
+  </body>
+</html>

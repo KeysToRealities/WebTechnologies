@@ -1,0 +1,73 @@
+<!-- Class Performance 02: Internal CSS - Element, Class, and ID Selectors
+     Topic   : Selector types and how they target different elements
+     Task    : Three selector types style the paragraphs below.
+               1. Before opening the file, predict the color of each <p>.
+               2. Open in a browser and check your prediction.
+               3. Remove the inline style from the last <p> - what color wins now?
+               4. Add a second element with class="warning" - what color does it get?
+
+     Selector hierarchy (highest specificity wins):
+       Inline style  >  #id  >  .class  >  element
+-->
+<!doctype html>
+<html>
+  <head>
+    <style>
+      /* Element selector: targets ALL <p> elements */
+      p {
+        color: gray;
+        font-size: 16px;
+        font-family: Arial, sans-serif;
+        margin-left: 30px;
+      }
+
+      /* Class selector: targets elements with class="info" */
+      .info {
+        color: #006341;
+        font-weight: bold;
+        background-color: #d1fae5;
+        padding: 5px 10px;
+      }
+
+      /* Class selector: targets elements with class="warning" */
+      .warning {
+        color: #92400e;
+        background-color: #fef3c7;
+        padding: 5px 10px;
+      }
+
+      /* ID selector: targets the ONE element with id="main-note" */
+      #main-note {
+        color: navy;
+        font-size: 1.1em;
+        border-left: 4px solid navy;
+        padding-left: 12px;
+      }
+
+      h1 {
+        color: #333;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Selector Practice</h1>
+
+    <!-- Uses element selector only (p) -->
+    <p>This paragraph is styled by the element selector alone.</p>
+
+    <!-- Uses element selector + class selector (.info wins over p for color) -->
+    <p class="info">This paragraph uses the .info class selector.</p>
+
+    <!-- Uses element selector + class selector (.warning wins over p for color) -->
+    <p class="warning">This paragraph uses the .warning class selector.</p>
+
+    <!-- Uses element selector + ID selector (#main-note wins over p for color) -->
+    <p id="main-note">This paragraph uses the #main-note ID selector.</p>
+
+    <!-- Inline style beats everything - predict the color before you open this! -->
+    <p class="info" style="color: hotpink">
+      This paragraph has an inline style AND a class. Which color wins?
+    </p>
+  </body>
+</html>

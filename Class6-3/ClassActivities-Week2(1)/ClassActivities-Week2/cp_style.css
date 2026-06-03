@@ -1,0 +1,89 @@
+/* cp_style.css - External stylesheet for CP_03.html
+   This file controls the appearance of the entire CP_03.html page.
+   Changing one rule here updates every page that links to this file.
+*/
+
+/* ── Base styles ── */
+body {
+   font-family: Arial, sans-serif;
+   background-color: #f0f4f8;
+   color: #333333;
+   line-height: 1.7;
+   margin: 0;
+   padding: 0;
+}
+
+/* ── Header ── */
+header {
+   background-color: #006341;
+   color: #ffffff;
+   text-align: center;
+   padding: 30px 20px;
+}
+
+header h1 {
+   font-size: 2.2em;
+   margin-bottom: 6px;
+}
+
+.subtitle {
+   font-size: 1em;
+   font-style: italic;
+   color: #a7f3d0;
+   margin: 0;
+}
+
+/* ── Main content area ── */
+main {
+   max-width: 700px;
+   margin: 30px auto;
+   padding: 0 20px;
+}
+
+/* ── Section headings ── */
+h2 {
+   color: #006341;
+   border-bottom: 2px solid #a7f3d0;
+   padding-bottom: 4px;
+   margin-top: 30px;
+}
+
+/* ── Paragraphs ── */
+p {
+   margin-bottom: 10px;
+}
+
+/* ── Lists ── */
+ul, ol {
+   margin-left: 20px;
+   margin-bottom: 14px;
+}
+
+li {
+   margin-bottom: 5px;
+}
+
+/* ── Links ── */
+a {
+   color: #006341;
+   text-decoration: none;
+   font-weight: bold;
+}
+
+a:hover {
+   text-decoration: underline;
+   color: #53a184;
+   border-radius: 4px;
+   background-color: #e0f2f1;
+   padding: 2px 4px;
+}
+
+/* ── Footer (Task: add your own rules here in step 5) ── */
+footer {
+   text-align: center;
+   padding: 20px;
+   font-size: 0.85em;
+   color: #777777;
+   border-top: 1px solid #cccccc;
+   margin-top: 40px;
+}
