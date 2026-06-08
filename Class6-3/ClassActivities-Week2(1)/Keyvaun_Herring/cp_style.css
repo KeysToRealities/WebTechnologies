@@ -5,7 +5,7 @@
 
 /* ── Base styles ── */
 body {
-   font-family: Arial, sans-serif;
+   font-family:Georgia, serif;
    background-color: #f0f4f8;
    color: #333333;
    line-height: 1.7;
@@ -80,10 +80,12 @@ a:hover {
 
 /* ── Footer (Task: add your own rules here in step 5) ── */
 footer {
-   text-align: center;
-   padding: 20px;
+   text-align: right;
+   padding: 25px;
    font-size: 0.85em;
-   color: #777777;
+   color: #000000;
    border-top: 1px solid #cccccc;
    margin-top: 40px;
+   text-decoration-line:underline;
+   
 }
