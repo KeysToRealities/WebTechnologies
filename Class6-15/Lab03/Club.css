@@ -1,0 +1,41 @@
+body{
+ font-family: Arial, sans-serif;
+ background-color: aquamarine;
+ color: black;
+ line-height: 1.6;
+
+}
+
+header {
+   background-color: #006341;
+   color: white;
+   padding: 10px;
+
+
+}
+h1{
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+section{
+  border: 1px solid #006341;
+  padding: 16px;
+  margin: 16px auto;
+  max-width: 600px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.btn{ color:green; font-weight: bold; padding: 8px 14px ;
+
+
+}
