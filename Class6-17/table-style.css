@@ -1,0 +1,29 @@
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+
+caption{
+color: rbg(16,90, 44);
+font-weight: bold;
+
+}
+
+th, td{
+    border:2px solid black;
+    text-align:center;
+}
+tbody tr:nth-of-type(even){
+    background-color: rgb(43,118,43);
+
+}
+
+.content-box{
+     box-sizing:border-box;
+     width:200px;
+     height: 300px;
+     padding:50px
+     border:5x solid red
+
+    
+}
