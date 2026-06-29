@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapter 7: Forms</title>
+    <link rel="stylesheet" href="forms.css" />
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Personal Information</legend>
+        First Name: <input type="text" name="firstName" id="firstName" /><br />
+        Last Name: <input type="text" name="lastName" id="lastName" /><br />
+        <label
+          >E-mail: <input type="email" name="email" id="email" /><br
+        /></label>
+        <br />
+        Password:
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Enter Your password here"
+        />
+        <br />
+        Comments:
+        <textarea
+          name="comments"
+          rows="5"
+          cols="500mdsb"
+          placeholder="Enter your comments here"
+        ></textarea>
+      </fieldset>
+      <fieldset>
+        <legend>TV Shows</legend>
+        <input type="checkbox" name="TVshows" value="Friends" /> Friends <br />
+        <input type="checkbox" name="TVshows" value="The Office" /> The Office
+        <br />
+        <input type="checkbox" name="TVshows" value="The Big Bang Theory" /> The
+        Big Bang Theory <br />
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Gender</legend>
+        <input type="radio" name="gender" value="male" /> Male <br />
+        <input type="radio" name="gender" value="female" /> Female <br />
+        <input type="radio" name="gender" value="other" /> Other <br />
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Age</legend>
+        <input type="radio" name="age" value="under18" /> Under 18 <br />
+        <input type="radio" name="age" value="18-30" /> 18-30 <br />
+        <input type="radio" name="age" value="31-50" /> 31-50 <br />
+        <input type="radio" name="age" value="51+" /> 51+<br />
+      </fieldset>
+      Colors:<input type="color" name="Color" value="#FF0000" />Choose your
+      favorite color<br />
+      Birthday:<input type="date" name="Date" />Choose a date<br />
+      Age: <input type="number" name="Age" min="1" max="10" />Enter your age<br />
+      Range:
+      <input type="range" name="Range" min="2" max="10" value="2" />Choose a
+      range<br />
+
+      <hr />
+      <input
+        type="image"
+        src="https://thumbs.dreamstime.com/b/submit-word-round-red-button-16243334.jpg"
+        alt="This is an image of a submit button"
+        width="50"
+        height="50"
+        value="Final Submission"
+        id="submitimage"
+      />
+
+      <hr />
+      <input type="submit" accesskey="s" /><br />
+      <input type="reset" accesskey="r" />
+    </form>
+
+    <hr />
+    <hr />
+    <hr />
+    <audio controls="controls">
+      <source src="sample_audio.wav" type="audio/wav" />
+      <a href="sample_audio.wav">Download the Audio File</a>
+    </audio>
+  </body>
+</html>

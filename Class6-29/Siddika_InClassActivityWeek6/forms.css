@@ -1,0 +1,7 @@
+form { background-color: #ffffff; padding: 10px; }
+label { float: left; text-align: right; margin-top: 10px; }
+fieldset {overflow: hidden; margin-top: 10px; }
+label + input {clear: left; margin-top: 10px; display: inline-block; margin-left: 110px; width:auto; clear:none}
+br { clear: left; }
+input, textarea { margin-top: 10px; }
+#mySubmit { margin-left: 110px; }
